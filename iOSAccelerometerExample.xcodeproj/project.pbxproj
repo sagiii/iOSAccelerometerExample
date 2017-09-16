@@ -33,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D4BABDC1C5130A60042ADA0 /* CoreMotionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4BABDC1C5130A60042ADA0 /* iOSAccelerometerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAccelerometerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4BABDF1C5130A60042ADA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D4BABE11C5130A60042ADA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D4BABE41C5130A60042ADA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		6D4BABDD1C5130A60042ADA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D4BABDC1C5130A60042ADA0 /* CoreMotionExample.app */,
+				6D4BABDC1C5130A60042ADA0 /* iOSAccelerometerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D4BABDB1C5130A60042ADA0 /* CoreMotionExample */ = {
+		6D4BABDB1C5130A60042ADA0 /* iOSAccelerometerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D4BABEE1C5130A60042ADA0 /* Build configuration list for PBXNativeTarget "CoreMotionExample" */;
+			buildConfigurationList = 6D4BABEE1C5130A60042ADA0 /* Build configuration list for PBXNativeTarget "iOSAccelerometerExample" */;
 			buildPhases = (
 				6D4BABD81C5130A60042ADA0 /* Sources */,
 				6D4BABD91C5130A60042ADA0 /* Frameworks */,
@@ -141,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = CoreMotionExample;
+			name = iOSAccelerometerExample;
 			productName = CoreMotionExample;
-			productReference = 6D4BABDC1C5130A60042ADA0 /* CoreMotionExample.app */;
+			productReference = 6D4BABDC1C5130A60042ADA0 /* iOSAccelerometerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6D4BABD71C5130A60042ADA0 /* Build configuration list for PBXProject "CoreMotionExample" */;
+			buildConfigurationList = 6D4BABD71C5130A60042ADA0 /* Build configuration list for PBXProject "iOSAccelerometerExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -182,7 +182,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				6D4BABDB1C5130A60042ADA0 /* CoreMotionExample */,
+				6D4BABDB1C5130A60042ADA0 /* iOSAccelerometerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -366,7 +366,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D4BABD71C5130A60042ADA0 /* Build configuration list for PBXProject "CoreMotionExample" */ = {
+		6D4BABD71C5130A60042ADA0 /* Build configuration list for PBXProject "iOSAccelerometerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D4BABEC1C5130A60042ADA0 /* Debug */,
@@ -375,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D4BABEE1C5130A60042ADA0 /* Build configuration list for PBXNativeTarget "CoreMotionExample" */ = {
+		6D4BABEE1C5130A60042ADA0 /* Build configuration list for PBXNativeTarget "iOSAccelerometerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D4BABEF1C5130A60042ADA0 /* Debug */,

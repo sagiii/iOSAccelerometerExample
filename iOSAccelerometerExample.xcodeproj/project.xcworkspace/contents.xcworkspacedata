@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CoreMotionExample.xcodeproj">
+      location = "self:/Users/sagiii/Documents/git/iOS-CoreMotion-Example/iOSAccelerometerExample.xcodeproj">
    </FileRef>
 </Workspace>

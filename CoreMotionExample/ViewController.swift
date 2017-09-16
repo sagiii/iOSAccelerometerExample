@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreMotion
+import Surge
 
 class ViewController: UIViewController {
 
@@ -22,13 +23,14 @@ class ViewController: UIViewController {
 		motionManager.startMagnetometerUpdates()
 		motionManager.startDeviceMotionUpdates()
 		
-		timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(ViewController.update), userInfo: nil, repeats: true)
+		timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(ViewController.update), userInfo: nil, repeats: true)
 	}
 
 	func update() {
 		if let accelerometerData = motionManager.accelerometerData {
 			print(accelerometerData)
 		}
+        /*
 		if let gyroData = motionManager.gyroData {
 			print(gyroData)
 		}
@@ -38,6 +40,7 @@ class ViewController: UIViewController {
 		if let deviceMotion = motionManager.deviceMotion {
 			print(deviceMotion)
 		}
+         */
 	}
 	
 }
