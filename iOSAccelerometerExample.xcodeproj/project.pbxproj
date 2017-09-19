@@ -12,6 +12,7 @@
 		6D4BABE51C5130A60042ADA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4BABE31C5130A60042ADA0 /* Main.storyboard */; };
 		6D4BABE71C5130A60042ADA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4BABE61C5130A60042ADA0 /* Assets.xcassets */; };
 		6D4BABEA1C5130A60042ADA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4BABE81C5130A60042ADA0 /* LaunchScreen.storyboard */; };
+		9E3F33AC1F6F63F800F8CF35 /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F33AB1F6F63F800F8CF35 /* LineGraphView.swift */; };
 		9ED638CD1F6D673000E2D1AF /* Surge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED638C51F6D4AC100E2D1AF /* Surge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9ED638D21F6E0DDB00E2D1AF /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED638D11F6E0DDB00E2D1AF /* GraphView.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		6D4BABE61C5130A60042ADA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D4BABE91C5130A60042ADA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D4BABEB1C5130A60042ADA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3F33AB1F6F63F800F8CF35 /* LineGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
 		9ED638BF1F6D4AC100E2D1AF /* Surge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Surge.xcodeproj; path = Surge/Surge.xcodeproj; sourceTree = "<group>"; };
 		9ED638D11F6E0DDB00E2D1AF /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 				6D4BABDF1C5130A60042ADA0 /* AppDelegate.swift */,
 				6D4BABE11C5130A60042ADA0 /* ViewController.swift */,
 				9ED638D11F6E0DDB00E2D1AF /* GraphView.swift */,
+				9E3F33AB1F6F63F800F8CF35 /* LineGraphView.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				6D4BABE21C5130A60042ADA0 /* ViewController.swift in Sources */,
 				6D4BABE01C5130A60042ADA0 /* AppDelegate.swift in Sources */,
 				9ED638D21F6E0DDB00E2D1AF /* GraphView.swift in Sources */,
+				9E3F33AC1F6F63F800F8CF35 /* LineGraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

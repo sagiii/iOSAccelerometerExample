@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var accArray: [CMAccelerometerData] = []
     let FFT_LENGTH = 256
     var graphview: GraphView?
+    var linegraphview: LineGraphView?
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -25,10 +26,14 @@ class ViewController: UIViewController {
         let screenWidth = self.view.bounds.width
         let screenHeight = self.view.bounds.height
         
-        graphview = GraphView(frame: CGRect(x: screenWidth * 0.1, y: screenHeight * 0.2, width: screenWidth * 0.8, height: screenHeight * 0.6))
+        graphview = GraphView(frame: CGRect(x: screenWidth * 0.1, y: screenHeight * 0.1, width: screenWidth * 0.8, height: screenHeight * 0.5))
+        linegraphview = LineGraphView(frame: CGRect(x: screenWidth * 0.1, y: screenHeight * 0.65, width: screenWidth * 0.8, height: screenHeight * 0.3))
         self.view.addSubview(graphview!)
+        self.view.addSubview(linegraphview!)
         graphview?.clearsContextBeforeDrawing = true
         graphview?.backgroundColor = UIColor.gray
+        linegraphview?.clearsContextBeforeDrawing = true
+        linegraphview?.backgroundColor = UIColor.gray
 
         motionManager.startAccelerometerUpdates()
 		motionManager.startGyroUpdates()
@@ -60,8 +65,11 @@ class ViewController: UIViewController {
                 //print(a)
                 a.removeFirst()
                 graphview?.data = a
+                linegraphview?.data = accArray
                 graphview?.setNeedsDisplay()
-                accArray.removeAll()
+                linegraphview?.setNeedsDisplay()
+                // next
+                accArray.removeFirst()
             }
 		}
         /*
